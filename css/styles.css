@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0 auto 0 auto;
+    width: 10%;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.top-container {
+    background-color: #E4F9F5;
+    position: relative;
+    padding: 100px;
+}
+
+.middle-container {}
+
+.bottom-container {}
+
+.top-cloud {
+    position: absolute;
+    right: 30%;
+    top: 10%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 25%;
+  bottom: 55%;
+}
