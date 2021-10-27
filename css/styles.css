@@ -46,14 +46,18 @@ h3 {
     bottom: 55%;
 }
 
+.formal {
+    position: relative;
+}
+
 .computer-img {
-    position: absolute;
-    left: 32%;
+    position: relative;
+    right: 5%;
 }
 
 .bot-img {
     position: relative;
-    left: 12%;
+    left: 5%;
 }
 
 .circular {
