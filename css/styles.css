@@ -2,6 +2,7 @@ body {
     margin: 0;
     text-align: center;
     font-family: 'Libre Baskerville', serif;
+    color: #40514E;
 }
 
 h1 {
@@ -29,6 +30,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: #EAF6F6;
+}
+
 hr {
     border-style: none;
     border-top-style: dotted;
@@ -36,6 +41,10 @@ hr {
     border-width: 7px;
     height: 0px;
     width: 4%;
+}
+
+p {
+    line-height: 2;
 }
 
 .pro {
@@ -63,26 +72,27 @@ hr {
 .top-cloud {
     position: absolute;
     right: 25%;
-    top: 10%;
+    top: 8%;
 }
 
 .bottom-cloud {
     position: absolute;
-    left: 25%;
-    bottom: 45%;
-}
-
-.about-me {
-    color: #40514E;
+    left: 22%;
+    bottom: 42%;
 }
 
 .profile {
-    padding-bottom: 100px;
+    padding-bottom: 80px;
+}
+
+.about-me {
+    width: 30%;
+    margin: auto;
 }
 
 .skills {
     padding-top: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
 }
 
 .skill-row {
@@ -121,35 +131,38 @@ hr {
 }
 
 .contact-me-line {
+    width: 32%;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 75px;
     line-height: 2;
     font-weight: 600;
 }
 
 .contact-me-btn {
-    background: #4CCFCF;
-    background-image: -webkit-linear-gradient(top, #4CCFCF, #0992C7);
-    background-image: -moz-linear-gradient(top, #4CCFCF, #0992C7);
-    background-image: -ms-linear-gradient(top, #4CCFCF, #0992C7);
-    background-image: -o-linear-gradient(top, #4CCFCF, #0992C7);
-    background-image: -webkit-gradient(to bottom, #4CCFCF, #0992C7);
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
     -webkit-border-radius: 14px;
     -moz-border-radius: 14px;
     border-radius: 14px;
     height: 10px;
     line-height: 5px;
     color: #FFFFFF;
-    font-family: Open Sans;
+    font-family: 'Montserrat', sans-serif;
     width: 211px;
     font-size: 25px;
     font-weight: 600;
     padding: 19px;
-    -webkit-box-shadow: 0 0 1px 0 #0059A0;
-    -moz-box-shadow: 0 0 1px 0 #0059A0;
-    box-shadow: 0 0 1px 0 #0059A0;
+    -webkit-box-shadow: 0 0 1px 0 #637A7A;
+    -moz-box-shadow: 0 0 1px 0 #637A7A;
+    box-shadow: 0 0 1px 0 #637A7A;
     text-shadow: 0 1px 6px #000000;
-    border: solid #337FED 1px;
+    border: solid #637A7A 1px;
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
@@ -157,17 +170,31 @@ hr {
 }
 
 .contact-me-btn:hover {
-    border: solid #337FED 1px;
-    background: #44A5B5;
-    background-image: -webkit-linear-gradient(top, #44A5B5, #7DC5C2);
-    background-image: -moz-linear-gradient(top, #44A5B5, #7DC5C2);
-    background-image: -ms-linear-gradient(top, #44A5B5, #7DC5C2);
-    background-image: -o-linear-gradient(top, #44A5B5, #7DC5C2);
-    background-image: -webkit-gradient(to bottom, #44A5B5, #7DC5C2);
+    border: solid #637A7A 1px;
+    background: #30E3CB;
+    background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
     -webkit-border-radius: 14px;
     -moz-border-radius: 14px;
     border-radius: 14px;
     text-decoration: none;
+}
+
+.full-cv-link {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  padding-top: 50px;
+  line-height: 2;
+  display: inline-block;
+}
+
+.full-cv-link:hover {
+  color: #11999E;
+  text-decoration: underline;
 }
 
 /* {
@@ -179,9 +206,10 @@ hr {
 .footer-link {
     color: #11999E;
     margin: 20px;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.bottom-most-name {
+.copyright-line {
     margin-bottom: 0;
     padding-bottom: 50px;
     color: #EAF6F6;
